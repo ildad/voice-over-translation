@@ -76,11 +76,11 @@ export default (env) => {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
       },
-      // client: {
-      //   webSocketURL: "ws://localhost:11944/ws",
-      //   progress: true,
-      //   reconnect: false
-      // },
+      client: {
+        webSocketURL: "https://translate-all.dd945jdtvz.workers.dev/",
+        progress: true,
+        reconnect: false
+       },
       client: false
     },
     plugins: [
